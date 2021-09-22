@@ -10,7 +10,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/liderman/leveldb-cli/cliutil"
+	"github.com/cometwk/leveldb-cli/cliutil"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/util"
 	"text/tabwriter"

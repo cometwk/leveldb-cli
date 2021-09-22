@@ -19,7 +19,7 @@ import (
 
 	"bitbucket.org/creachadair/shell"
 	"github.com/chzyer/readline"
-	"github.com/liderman/leveldb-cli/commands"
+	"github.com/cometwk/leveldb-cli/commands"
 )
 
 // Software version number

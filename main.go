@@ -12,7 +12,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liderman/leveldb-cli/leveldbcli"
+	"github.com/cometwk/leveldb-cli/leveldbcli"
 	"os"
 	"path"
 	"runtime"
@@ -20,7 +20,7 @@ import (
 
 	"bitbucket.org/creachadair/shell"
 	"github.com/chzyer/readline"
-	"github.com/liderman/leveldb-cli/commands"
+	"github.com/cometwk/leveldb-cli/commands"
 )
 
 // Software version number
