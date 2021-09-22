@@ -8,11 +8,10 @@
 // There is no guarantee that the application will work correctly
 // This code will be refactored, so do not rely on its structure
 
-package main
+package leveldbcli
 
 import (
 	"fmt"
-	"github.com/liderman/leveldb-cli/leveldbcli"
 	"os"
 	"path"
 	"runtime"
@@ -43,11 +42,7 @@ var completer = readline.NewPrefixCompleter(
 )
 
 // Main function
-func main() {
-	commands.Open("/tmp/test-db")
-	leveldbcli.Shell()
-}
-func main0() {
+func Shell() {
 	l, err := readline.NewEx(&readline.Config{
 		Prompt:       "\033[31m»\033[0m ",
 		HistoryFile:  "/tmp/leveldb-cli.tmp",
