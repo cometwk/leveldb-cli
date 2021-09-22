@@ -31,3 +31,13 @@ func Open(file string) string {
 	isConnected = true
 	return "Success"
 }
+
+func SetDB(db *leveldb.DB) {
+	dbh = db
+	isConnected = true
+}
+
+func GetDB() *leveldb.DB {
+	return dbh
+}
+
