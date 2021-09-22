@@ -8,6 +8,8 @@ require (
 	github.com/chzyer/logex v1.1.10 // indirect
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
 	github.com/chzyer/test v0.0.0-20210722231415-061457976a23 // indirect
+	github.com/golang/snappy v0.0.4 // indirect
 	github.com/syndtr/goleveldb v1.0.0
+	golang.org/x/sys v0.0.0-20210921065528-437939a70204 // indirect
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
 )
