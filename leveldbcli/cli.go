@@ -67,6 +67,9 @@ func Shell() {
 		}
 
 		args, _ := shell.Split(line)
+		if args == nil {
+			continue
+		}
 		switch {
 		// Command: version
 		case line == "version":
